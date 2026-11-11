@@ -1,0 +1,4 @@
+# Relative paths here are ok since this is a project-specific config
+[mcp_servers.15113_assignment_reader]
+command = "mcp/.venv/bin/python"
+args = ["mcp/assignment_reader_113.py"]

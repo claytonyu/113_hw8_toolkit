@@ -1,6 +1,6 @@
 ---
 name: write-good-code
-description: Write code with good style, readability, and coding practices. Use when writing, refactoring, or adding features to code.
+description: Write code with good style, readability, and coding practices. Use when writing, refactoring, or adding features to code. Do not activate without an explicit command to modify.
 ---
 
 # Write Good Code

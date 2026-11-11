@@ -1,5 +1,19 @@
 # 15-113 HW8 - Build Your Own Agent Toolkit
 
+
+## MCP Installation Instructions
+The MCP is in the [mcp](mcp) folder, and it requires a venv. This was tested on Python 3.14, but it should run with modern versions of Python. Run this command to install the venv with Python/pip:
+```bash
+python -m venv mcp/.venv
+mcp/.venv/bin/python -m pip install -r mcp/requirements.txt
+```
+
+Run this command to install it with uv:
+```bash
+uv venv mcp/.venv
+uv pip install --python mcp/.venv/bin/python -r mcp/requirements.txt
+```
+
 I've needed to repeatedly tell LLMs to write code with good style. For my [skill](.agents/skills/check-code-style/SKILL.md), I've written a checker that evaluates written code for good style. The first couple of core principles are a direct copy from one of my HW4 prompts for good coding principles.
 ### Examples -- Writing Code with Good Style
 
