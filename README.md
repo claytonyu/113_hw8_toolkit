@@ -1,12 +1,7 @@
 # 15-113 HW8 - Build Your Own Agent Toolkit
 
-## Common Repeated Point -- Writing Code with Good Style
-**HW4**:
-> You are a senior software architect. Strictly adhere to these principles:
-> 1. KISS (Keep It Simple, Stupid): Write straightforward, uncomplicated logic. Avoid premature optimizations or speculative "what-if" abstractions.
-> 2. YAGNI (You Aren't Gonna Need It): Do not add extra features, utility methods, or error-handling blocks for scenarios that cannot physically happen in this scope.
-> 3. SOLID: Ensure conceptual single responsibility per class/function.
-> 4. Reduce cognitive complexity (aim for low cyclomatic complexity).
+I've needed to repeatedly tell LLMs to write code with good style. For my [skill](.agents/skills/check-code-style/SKILL.md), I've written a checker that evaluates written code for good style. The first couple of core principles are a direct copy from one of my HW4 prompts for good coding principles.
+### Examples -- Writing Code with Good Style
 
 **HW7**:
 > Refactor the code -- do NOT overhaul or completely change it. You may split & rename functions or files for modularity. Most of the work should be recognizable to the original code. Use the following principles:
