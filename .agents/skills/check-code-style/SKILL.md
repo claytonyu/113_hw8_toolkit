@@ -1,6 +1,6 @@
 ---
 name: check-code-style
-description: Evaluate code for good style and readability. Use when asked to check over code, or as the first step when prompted to "refactor" code.
+description: Evaluate code for style, readability, and maintainability. Use when asked to review code specifically for these reasons, or as the first step when prompted to "refactor" code, but not when simply asked to summarize or view code.
 ---
 
 # Check Code Style

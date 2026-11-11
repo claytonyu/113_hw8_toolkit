@@ -5,11 +5,10 @@ Since my skill was to check if code was written with good style, the first agent
 The checker caught the poor-readability of certain bits of code (ex: line 26 of [run1-api/iss.py](run1-api/iss.py)), and mainly the lack of docstring items. However, it also listed issues with functionality, which wasn't the goal of this skill, though appreciated. I would probably fine-tune it in the future to focus on readability and modularity.
 It didn't list any necessary major structural changes to the code, which I agree with. Since I asked the agent to generate a 'minimal' model, there are no structural changes to make.
 
-
 ## Run 1 - API
 
 ### Creator Agent
-I asked Codex to find a complete the coding portion of "a 15-113 assignment that had to do with APIs." Note that it searched multiple homework pages to find the right assignment.
+I asked Codex to find and complete the coding portion of "a 15-113 assignment that had to do with APIs." Note that it searched multiple homework pages to find the right assignment.
 
 > **Prompt**: Find a 15-113 assignment that had to do with APIs. Write a very minimal but complete assignment that satisfies the coding portion, using satellite APIs. Do ALL of your work in a folder called run1-api
 > 
@@ -26,9 +25,9 @@ I asked Codex to find a complete the coding portion of "a 15-113 assignment that
 
 ### Checker Agent
 In a separate window, I verified the code for readability & good coding practices.
-> **Prompt**: Check the .py file in run1-api
+> **Prompt**: Review the .py file in run1-api for style
 > 
-> **Response**: I’ll check the Python file for correctness and readability, then report any issues I find.
+> **Response**: I’ll use the check-code-style skill to review the Python file in run1-api and report actionable readability and maintainability issues.
 > 
 > `(Read Check Code Style skill)`
 > 
@@ -55,9 +54,9 @@ In a separate window, I verified the code for readability & good coding practice
 ### Checker Agent
 I typed an intentionally vague statement to see if the skill would activate. It did!
 
-> **Prompt**: Evaluate the run2-proj2 code.
+> **Prompt**: valuate how good the run2-proj2 code is.
 >
-> **Response**: I’ll review the project’s code for correctness and readability, then report the most important findings with file references. I’ll use the check-code-style skill to guide the review.
+> **Response**: I’ll review the code for correctness, readability, and maintainability, and check its behavior against the project requirements. I’m using the check-code-style skill to guide the review.
 >
 > `(Read Check Code Style skill, listed files)`
 >

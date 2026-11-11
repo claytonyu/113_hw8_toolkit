@@ -52,6 +52,6 @@ I decided to install the MCP locally in this project. Codex allows for project-l
 I'm not sure how to install it with Claude, but the command to run the server would be `./mcp/.venv/bin/python ./mcp/assignment_reader_113.py`, with absolute paths filled in
 
 ## AI Usage
-Codex was used for this project to run the skills/MCP to create the directories [run1-api](run1-api) and [run2-proj2](run2-proj2). AI responses from Claude may be found in [old_prompt_logs](old_prompt_logs). Codex was also used to troubleshoot installation issues for the MCP.
+Codex with GPT-6.1 Terra was used for this project to run the skills/MCP to create the directories [run1-api](run1-api) and [run2-proj2](run2-proj2). AI responses from Claude may be found in [old_prompt_logs](old_prompt_logs). Codex was also used to troubleshoot installation issues for the MCP.
 Everything else -- the top-level .md files, the shell excerpts above, the skills, the MCP code -- were written by me, except for the first three "core coding principles" in my skills. Help from online documentation was used to write these, of course.
 The installation should be smoother with Codex compared to another agentic tool.
